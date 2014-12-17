@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_choices">
+        <item>Study Mode</item>
+        <item>Start from Beginning</item>
+        <item>Shuffle</item>
+        <item>Wrong Answers Only</item>
+        <item>Wrong Answer Shuffle</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffd669">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Save File"
+        android:id="@+id/new_saveButton"
+        android:layout_margin="32dp"
+        android:layout_gravity="center_vertical"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Save File"
+        android:id="@+id/load_saveButton"
+        android:layout_margin="32dp"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>
