@@ -5,7 +5,11 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.nerdranchstudy.killermech.flashcardengine"
+=======
+        applicationId "com.flashcardengine.killermech.etswe"
+>>>>>>> 1e855ce595872d1a5efbdc1868d5d66c4fadcd2b
         minSdkVersion 9
         targetSdkVersion 20
         versionCode 1
