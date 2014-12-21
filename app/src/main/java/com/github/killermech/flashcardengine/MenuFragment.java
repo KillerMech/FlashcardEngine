@@ -1,5 +1,6 @@
 package com.github.killermech.flashcardengine;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -86,7 +87,10 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 //todo make it so user can choose their own spreadsheet
-                goodWorkbook = true;
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                WorkbookPickerFragment dialog = WorkbookPickerFragment.newInstance();
+                dialog.setTargetFragment(MenuFragment.this, REQUEST_WORKBOOK);
+                dialog.show(fm, DIALOG_WORKBOOK);
             }
         });
 
@@ -123,5 +127,7 @@ public class MenuFragment extends Fragment {
 
     private static final String TAG = "com.nerdranchstudy.killermech.etswe2";
     private static final String DIALOG_SAVE = "save";
+    private static final String DIALOG_WORKBOOK = "workbook";
     private static final int REQUEST_SAVE = 0;
+    private static final int REQUEST_WORKBOOK = 1;
 }
