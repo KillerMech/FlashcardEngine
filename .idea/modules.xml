@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ETSWE2.iml" filepath="$PROJECT_DIR$/ETSWE2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlashcardEngine.iml" filepath="$PROJECT_DIR$/FlashcardEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
